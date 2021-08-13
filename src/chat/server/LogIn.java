@@ -70,7 +70,7 @@ public class LogIn implements Runnable {
         String[] options = {"log In", "sign Up","exit"};
 
         MenuInputScanner scanner = new MenuInputScanner(options);
-        scanner.setMessage("Hello you have reached my motherfucking chat!");
+        scanner.setMessage("Hello you have reached my Chatyy!");
 
         String choice =  prompt.getUserInput(scanner) + "";
 
